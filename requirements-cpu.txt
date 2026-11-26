@@ -1,0 +1,5 @@
+# CPU lessons, plotting, and data baselines; no model access required.
+numpy==2.2.6
+scikit-learn==1.7.1
+matplotlib==3.10.3
+nbformat==5.10.4

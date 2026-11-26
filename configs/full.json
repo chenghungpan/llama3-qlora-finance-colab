@@ -1,0 +1,15 @@
+{
+  "seed": 42,
+  "max_length": 256,
+  "lora_r": 8,
+  "lora_alpha": 16,
+  "lora_dropout": 0.05,
+  "learning_rate": 0.0002,
+  "gradient_accumulation_steps": 8,
+  "save_steps": 25,
+  "train_limit": null,
+  "validation_limit": null,
+  "test_limit": null,
+  "max_steps": -1,
+  "epochs": 2
+}

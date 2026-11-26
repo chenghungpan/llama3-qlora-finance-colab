@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llama3-qlora-finance-colab"
+version = "0.1.0"
+description = "A reproducible Colab tutorial for financial sentiment QLoRA"
+requires-python = ">=3.10,<3.14"
+
+[tool.setuptools.packages.find]
+include = ["finance_qlora*"]

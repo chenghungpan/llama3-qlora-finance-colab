@@ -1,0 +1,116 @@
+{
+  "majority": {
+    "accuracy": 0.6474291710388248,
+    "column_labels": [
+      "bearish",
+      "bullish",
+      "neutral",
+      "invalid"
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        144,
+        0
+      ],
+      [
+        0,
+        0,
+        192,
+        0
+      ],
+      [
+        0,
+        0,
+        617,
+        0
+      ]
+    ],
+    "invalid_rate": 0.0,
+    "macro_f1": 0.26199575371549894,
+    "n": 953,
+    "per_class": {
+      "bearish": {
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 144
+      },
+      "bullish": {
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 192
+      },
+      "neutral": {
+        "f1": 0.7859872611464969,
+        "precision": 0.6474291710388248,
+        "recall": 1.0,
+        "support": 617
+      }
+    },
+    "row_labels": [
+      "bearish",
+      "bullish",
+      "neutral"
+    ]
+  },
+  "tfidf_logistic": {
+    "accuracy": 0.7943336831059811,
+    "column_labels": [
+      "bearish",
+      "bullish",
+      "neutral",
+      "invalid"
+    ],
+    "confusion_matrix": [
+      [
+        55,
+        10,
+        79,
+        0
+      ],
+      [
+        6,
+        101,
+        85,
+        0
+      ],
+      [
+        7,
+        9,
+        601,
+        0
+      ]
+    ],
+    "invalid_rate": 0.0,
+    "macro_f1": 0.6786859339012358,
+    "n": 953,
+    "per_class": {
+      "bearish": {
+        "f1": 0.5188679245283019,
+        "precision": 0.8088235294117647,
+        "recall": 0.3819444444444444,
+        "support": 144
+      },
+      "bullish": {
+        "f1": 0.6474358974358975,
+        "precision": 0.8416666666666667,
+        "recall": 0.5260416666666666,
+        "support": 192
+      },
+      "neutral": {
+        "f1": 0.869753979739508,
+        "precision": 0.7856209150326797,
+        "recall": 0.9740680713128039,
+        "support": 617
+      }
+    },
+    "row_labels": [
+      "bearish",
+      "bullish",
+      "neutral"
+    ]
+  }
+}
